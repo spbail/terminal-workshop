@@ -6,7 +6,9 @@ Workshop first held at the DataUmbrella meetup in July 2020.
 
 permits.csv is a modified sample CSV file based on the Film Permits data provided by [NYC OpenData](https://data.cityofnewyork.us/City-Government/Film-Permits/tg4x-b46p)
 
-# Slide instructions (in case you want to compile the markdown yourself)
+# Slide instructions
+
+Use the HTML, or follow these instructions in case you want to compile the markdown yourself/play around with Marp:
 
 ## Installing Marp
 * Install npm: https://www.npmjs.com/get-npm
