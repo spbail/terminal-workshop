@@ -13,19 +13,20 @@ marp: true
 
 # Intro to terminal!
 
-## Sam Bail // @spbail
-Enterprise Partnerships at Superconductive
+### Sam Bail, Superconductive // @spbail
+
+https://github.com/spbail/terminal-workshop
 
 
 ---
 
-![bg right:30% 95%](img/lightbulb.png)
+![bg right:30% 80%](img/generic_dickens_protagonist.png)
 
 ## Intro
 
 - Hello! I'm Sam!
 	- I'm a data... person in New York City, and I run our Partnerships team at Superconductive
-	- We are the team behind Great Expectations, an awesome open source tool for data quality!
+	- We are the team behind [**Great Expectations**](https://greatexpectations.io/), an awesome open source tool for **data quality!**
 - Plan for today:
 	- Some background and terminology
 	- Basic navigation, file manipulation, searching
@@ -80,6 +81,18 @@ Enterprise Partnerships at Superconductive
 
 ---
 
+## Terminal recommendations
+
+- MacOS
+    - The built-in Terminal app works well!
+    - iTerm is a nice terminal with a few more customizable features
+- Windows
+    - The Windows command line is very different from the Unix shells
+    - Git Bash is a bash-like wrapper around the command line, it comes with the [git for Windows install](https://gitforwindows.org/)
+    - There is a feature called ["Windows subsystem for Linux"](https://docs.microsoft.com/en-us/windows/wsl/install-win10) that gives you Unix features like a shell - I haven't tested this yet but it might be an option!
+
+---
+
 <style scoped>
 	h1 {margin-top: 120px;}
 	p {font-size: 0.8em; margin-top:2em;}
@@ -96,7 +109,7 @@ Enterprise Partnerships at Superconductive
 - Some basics to navigate the file system:
     - `pwd`: path of current working directory (usually your terminal will open a shell in your home directory, but you can change that in settings)
     - `ls`: list files in the directory
-    - `ls -l`: = add a “long format” flag
+    - `ls -l`: add a “long format” flag
     - `ls -la`: add long format + “all” flag
 - How do we know what flags are available?
     - `man ls`: man(ual) pages
@@ -108,7 +121,7 @@ Enterprise Partnerships at Superconductive
 
 ## Some helpful terminal shortcuts
 
-- `clear`: refresh your terminal window
+- `clear` or `<CTRL+L>`: refresh your terminal window
 - `<Up arrow>`: cycle through previous commands
 - `<Tab>`: bash will tab-complete file/dir paths
 - `<CTRL+c>`: exit pretty much any process
@@ -408,11 +421,10 @@ Enterprise Partnerships at Superconductive
     - Directory navigation and file manipulation
     - Searching for text and finding files
     - Environment variables and your shell profile
-    - Your first shell script
-- Other important or fun bash stuff to look up (e.g. using `man`):
+- Other important or fun shell things to look up (e.g. using `man`):
     - The `sudo` command
     - Setting an alias (shortcut) for shell commands
-    - Using vim as text editor
+    - Using vim as text editor, `csvkit`, etc.
     - Other ways to exit and kill processes (CTRL+z, CTRL+d…)
     - Utilities like `cal`, `date`, disk space checking, `cowsay`...
     
