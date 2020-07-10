@@ -1,6 +1,6 @@
 ---
 theme: sam-theme
-footer: '.'
+footer: 'Sam Bail @spbail - Intro to terminal workshop'
 marp: true
 ---
 
@@ -9,7 +9,7 @@ marp: true
 	p {font-size: 0.8em; margin-top:2em;}
 </style>
 
-![bg right:30% 80%](img/terminal.png)
+![bg right:50% 70%](img/terminal1.png)
 
 # Intro to terminal!
 
@@ -31,7 +31,14 @@ Enterprise Partnerships at Superconductive
 	- Basic navigation, file manipulation, searching
 	- Environment variables and shell profile
 	- Shell scripting
-- The DIY blocks are mini-exercises you can try out after the workshop!
+
+---
+## Workshop structure
+- I will mostly be showing slides and demo-ing in the terminal
+- There will be stops after each section for questions
+- We will have time for an FAQ at the end
+- The **DIY** blocks are mini-exercises you can try out after the workshop
+
 
 ---
 
@@ -40,7 +47,7 @@ Enterprise Partnerships at Superconductive
 	p {font-size: 0.8em; margin-top:2em;}
 </style>
 
-![bg right:30% 80%](img/terminal.png)
+![bg right:50% 80%](img/terminal2.png)
 
 # Background & terminology
 
@@ -78,7 +85,7 @@ Enterprise Partnerships at Superconductive
 	p {font-size: 0.8em; margin-top:2em;}
 </style>
 
-![bg right:30% 80%](img/terminal.png)
+![bg right:40% 80%](img/terminal1.png)
 
 # Navigating the file system
 
@@ -133,7 +140,7 @@ Enterprise Partnerships at Superconductive
 	p {font-size: 0.8em; margin-top:2em;}
 </style>
 
-![bg right:30% 80%](img/terminal.png)
+![bg right:40% 80%](img/terminal2.png)
 
 # Basic file operations
 
@@ -195,7 +202,7 @@ Enterprise Partnerships at Superconductive
 	p {font-size: 0.8em; margin-top:2em;}
 </style>
 
-![bg right:30% 80%](img/terminal.png)
+![bg right:40% 80%](img/terminal1.png)
 
 # Finding text in files
 
@@ -259,7 +266,7 @@ Enterprise Partnerships at Superconductive
 	p {font-size: 0.8em; margin-top:2em;}
 </style>
 
-![bg right:30% 80%](img/terminal.png)
+![bg right:50% 80%](img/terminal2.png)
 
 # Finding files
 
@@ -285,7 +292,7 @@ Enterprise Partnerships at Superconductive
 	p {font-size: 0.8em; margin-top:2em;}
 </style>
 
-![bg right:30% 80%](img/terminal.png)
+![bg right:50% 80%](img/terminal2.png)
 
 # Environment variables and profile files
 
@@ -345,7 +352,7 @@ Enterprise Partnerships at Superconductive
 	p {font-size: 0.8em; margin-top:2em;}
 </style>
 
-![bg right:30% 80%](img/terminal.png)
+![bg right:50% 80%](img/terminal2.png)
 
 # Shell scripting 101
 
@@ -395,7 +402,7 @@ Enterprise Partnerships at Superconductive
 
 ---
 
-## Wrap-up!
+## Wrapping up
 
 - We’ve covered:
     - Directory navigation and file manipulation
@@ -411,4 +418,12 @@ Enterprise Partnerships at Superconductive
     
 ---
 
-## Wrap-up!
+<style scoped>
+	h1 {margin-top: 120px;}
+	p {font-size: 0.8em; margin-top:2em;}
+</style>
+
+![bg right:50% 80%](img/terminal2.png)
+
+# That's it!
+### Feel free to connect with me on Twitter @spbail!
